@@ -217,7 +217,7 @@ body {
   align-items: center;
   justify-content: center;
   color: #ffffff;
-  min-height: 160px;
+  min-height: 100px;
   text-align: center;
 }
 
@@ -252,7 +252,7 @@ body {
 @media (max-width: 1000px) {
   .project {
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(1, 1fr);
   }
 }
 
@@ -415,10 +415,6 @@ body {
 }
 
 /* CSS untuk efek hover pada item foto */
-.project-container {
-  margin: 20px auto; /* Menengahkan section dengan margin auto di sisi kiri dan kanan */
-  text-align: center; /* Menengahkan elemen dalam section secara horizontal */
-}
 
 .section-title {
   text-align: center;
@@ -431,7 +427,7 @@ body {
 }
 
 .photo-item {
-  width: 60%;
+  width: 90%;
   margin-bottom: 10px;
   position: relative;
   border-radius: 10px;
