@@ -267,10 +267,13 @@ body {
     flex-direction: column;
     width: calc(80% - 10px);
     transition: 0.3s;
-    box-shadow: var(--shadow);
     padding: 2rem;
     border-radius: 5px;
     align-items: flex-start;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3); /* Ubah nilai shadow sesuai kebutuhan */
+
+    /* Tambahkan transform untuk menggeser objek ke kiri sejauh setengah lebar objek */
+    transform: translateX(-50%);
   }
 
   .navbar .btn {
